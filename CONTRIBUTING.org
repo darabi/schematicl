@@ -1,0 +1,66 @@
+#+title: Contributing to schematicl
+#+options: toc:nil
+
+Contributions are welcome: bug reports, corrections, tests and code.
+
+* Licence of your contribution
+
+schematicl is published under the GNU Affero General Public License
+(AGPL), version 3 or later. m-creations GmbH also offers it under
+commercial licences. A contribution can only be merged when it can be
+distributed under both.
+
+You therefore accept the Contributor Licence Agreement, once.
+
+Read [[./LICENCES/CONTRIBUTOR_LICENCE_AGREEMENT.md][LICENCES/CONTRIBUTOR_LICENCE_AGREEMENT.md]]. You keep the ownership of
+your contribution and grant m-creations GmbH the right to distribute it
+under the AGPL and under other licence terms. In return, m-creations
+GmbH commits to keep every merged contribution available under an
+open-source licence.
+
+When you open your first pull request, a bot asks you to accept the
+agreement. Accepting takes one click with the account that opened the
+pull request, and it covers your later contributions as well. A pull
+request is merged only after every author of its commits has accepted.
+
+If you contribute on behalf of your employer, make sure that you are
+permitted to accept the agreement for these contributions.
+
+* What we cannot accept
+
+- Code copied or translated from another project, including another
+  JSON Schema implementation, unless its licence permits distribution
+  under terms of our choice. Name the source and the licence in the
+  pull request. Material under a copyleft licence of a third party
+  cannot be merged.
+- Test data or schemas without a licence that permits redistribution.
+
+* How to make a change
+
+1. Open an issue and describe the change you intend, ideally before you
+   invest time and effort, so that it can be discussed and agreed.
+2. Change the files in this repository as you would in any Common Lisp
+   project, and add or adapt a test that shows the change.
+3. Run the tests as described in the section "Tests" of =README.md=.
+4. Open a pull request and name the number of the issue in it.
+
+A pull request without an issue cannot be accepted.
+
+The maintainers may modify an accepted contribution so that it fits the
+rest of the code better. The merged commit can therefore differ from
+the one you submitted. You remain its author.
+
+* Commits and pull requests
+
+- One topic per pull request, with the tests that show the change.
+- The subject of a commit states the change. A body is optional and
+  short.
+- Every exported symbol has a docstring.
+- Written English is British.
+- Do not rewrite the history of a branch that is under review.
+
+* Reporting a security problem
+
+Do not open a public issue for a vulnerability. Report it by e-mail to
+security@m-creations.net, with the steps to reproduce it. We confirm
+the receipt and tell you how we proceed.

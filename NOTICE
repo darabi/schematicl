@@ -1,0 +1,8 @@
+schematicl
+Copyright 2024-2026 m-creations GmbH
+
+This product includes no third-party code. Third-party material used for
+testing is fetched by script/fetch-test-suite.sh and is not redistributed:
+
+- JSON Schema Test Suite, https://github.com/json-schema-org/JSON-Schema-Test-Suite
+  (MIT licence)

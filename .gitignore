@@ -1,0 +1,4 @@
+*.fasl
+*~
+.#*
+/vendor/JSON-Schema-Test-Suite/
