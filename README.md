@@ -14,8 +14,10 @@ Status: work in progress, no release yet.
 
 ## Tests
 
-    script/fetch-test-suite.sh
-    sbcl --eval '(asdf:test-system "schematicl-jsonschema")'
+```bash
+script/fetch-test-suite.sh
+sbcl --eval '(asdf:test-system "schematicl-jsonschema")'
+```
 
 The first command fetches the official JSON Schema Test Suite at a pinned
 commit into `vendor/`.
